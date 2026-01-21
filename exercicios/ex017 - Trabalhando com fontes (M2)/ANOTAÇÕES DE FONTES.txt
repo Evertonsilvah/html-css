@@ -1,0 +1,13 @@
+MEDIDAS ABSOLUTAS
+    cm (centimetros), mm(milimetro), in(polegadas), px(pixels), pt(ponto), pc(paica)
+
+MEDIDAS RELATIVAS
+    em(medida relativa ao tamanho atual da fonte (M)), ex(relativo a altuxa x de uma fonte(x)), rem, vw (), vh, %
+
+Recomendação da W3C é utilizar px e em
+
+-------------------------------------------------------------------------------------
+Onde localizar fontes:
+
+https://www.dafont.com/pt/
+https://fonts.google.com/

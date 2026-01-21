@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo esta hospedado no meu próprio servidor.</p>
+<!--Colocando um vídeo interno no servidor-->
+    <h2>Video servidor interno</h2>
+    <video controls width="560px" poster="imagens/praia.jpg" loop> <!-- "poster" - para deixar uma imagem de capa do vídeo -->
+        <source src="midia/Meu-Video.mkv" type="video/mp4"> <!-- Define todos nesta sequencia e o navegador vai abrir o que é compatível -->
+        <source src="midia/Meu-Video.mp4" type="video/mp4">
+        <source src="midia/Meu-Video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p> <!-- Se nenhum formato for compatível, aparecerá esse parágrafo-->
+    </video>
+    <hr>
+    <h1>Inserindo vídeos hospedados externamente</h1>
+    <p>
+        <!--Colocando um vídeo externo usando o Youtube-->
+        
+        <h2>Video do Youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/I_wsjejQ8QM?si=Wz0SdCboIuDUjRP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </p> 
+    <p>
+        <!--Colocando um vídeo externo usando o Vimeo-->
+        <h2>Video do Vimeo</h2>
+        <iframe src="https://player.vimeo.com/video/395599698?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="PUMA X PALMEIRAS"></iframe>
+    </p>
+</body>
+</html>

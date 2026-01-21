@@ -1,0 +1,90 @@
+ANOTAÇÕES DE CORES
+
+    Cores primárias: Amarelo, Vermelho e Azul
+
+    Secundárias: Verde, Laranja e Violeta
+
+    Terciárias: Amarelo-esverdeado, Amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado e  azul-esverdeado. 
+	(Misturas das cores primeiras e secundárias. O nome sempre será a primária + secundária.)
+
+-------------------------------------------------------------------------------------
+
+CORES QUENTES
+	Amarelo, amarelo-alaranjado, laranja, vermelho-alaranjado, vermelho e vermelho-arroxeado.
+
+CORES FRIAS:
+	Violeta, azul-arroxeado, azul, azul-esverdeado, verde e amarelo-esverdeado
+
+-------------------------------------------------------------------------------------
+
+CORES COMPLEMENTARES
+
+	Cores com maiores contrasta é a cor do lado oposto do circulo cromático 
+	Violeta com Amarelo
+	Verde com Vermelho
+	Azul com laranja
+
+-------------------------------------------------------------------------------------
+
+CORES ANÁLOGAS
+	São as cores ao lado no circulo cromático.
+	Ex:
+	   Violeta tem o vermelho-arroxeado e o azul-arroxeado.
+	
+	Obs: É possível utilizar as cores análogas e a complementar para criar uma paleta de 4 cores (com harmonia). No caso do exemplo acima, a cor que complementa é o amarelo.
+
+-------------------------------------------------------------------------------------
+
+CORES ANÁLOGAS RECIONADAS
+	Cria um degradê com um contraste. Você pega duas corres da análoga, pula a terceira e pega a quarta. (tanto faz o lado)
+	Ex:
+	   Amarelo, amarelo-alaranjado e vermelho alaranjado (Ou lado contrario: Verde)
+
+-------------------------------------------------------------------------------------
+
+CORES INTERCALADAS
+	Utiliza as cores pulando de uma em uma no circulo cromático.
+	Ex:
+	   Amarelo, laranja e vermelho.
+
+-------------------------------------------------------------------------------------
+
+CORES TRIÁDICAS
+	Utiliza as cores pulando de três em três no circulo cromático.
+ 	Ex:
+ 	   Amarelo, vermelho e azul.
+
+-------------------------------------------------------------------------------------
+
+CORES EM QUADRADO
+	Utiliza as cores pulando de dois em dois no circulo cromático.
+ 	Ex:
+ 	   Amarelo, vermelho-alaranjado, violeta e azul-esverdeado.
+
+-------------------------------------------------------------------------------------
+
+CORES TRETADICAS
+	escolhe duas cores e suas complementares (oposto). Formando um retângulo no circulo cromático.
+	Ex:
+	   Verde, amarelo-alaranjado, vermelho e azul
+
+-------------------------------------------------------------------------------------
+
+MONOCROMIA
+	Escolhe uma única cor e modifica a saturação e a luminosidade
+
+-------------------------------------------------------------------------------------
+
+SITE PARA CONSEGUIR AS CORES E FACILITAR ESCOLHA DE PALETAS
+
+https://color.adobe.com/pt/
+https://paletton.com/
+https://coolors.co/
+
+-------------------------------------------------------------------------------------
+
+CAPTURAR CORES
+	instalar a extensão Colorzila no Chrome.
+
+-------------------------------------------------------------------------------------
+

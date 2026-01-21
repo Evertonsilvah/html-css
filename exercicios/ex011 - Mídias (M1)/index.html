@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <!--Sempre acima a imagem menor-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!-- media="(max-width: 750px) tamanho maximo da tela em largura. Se for menor que 750px, mantem a imagem em srcset -->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <!-- media="(max-width: 1050px) tamanho maximo da tela em largura. Se for menor que 1050px, mantem a imagem em srcset -->
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+        <!--Imagem que será usada de padrão. As outras são para telas menores-->
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/jinglebells.mp3" controls></audio> <!-- "src" é para informar o caminho onde esta o audio. "controls para aparecer os controles do audio".-->
+    <!-- Formatos de áudio: MP3, WAV e OGG -->
+
+    <!-- Outra forma de inserir audio -->
+     <h1>Outra forma de inserir audio ao site</h1>
+     <audio preload="metadata" autoplay controls loop> <!-- Se o preload for "auto" ele só termida de carregar a pagina quando acabar o audio. metadata pega apenas informações basicas. "none" não carrega nada, somente após o clique no play. "loop" volta o audio para o inicio assim que terminar-->
+        <!-- Existem vários Types para definir o source, segue abaixo 3 opções-->
+        <source src="midia/jinglebells.mp3" type="audio/mpeg"> <!-- Para arquivo MP3 -->
+        <source src="midia/jinglebells.mp3" type="audio/ogg"> <!-- Para arquivo OGG -->
+        <source src="midia/jinglebells.mp3" type="audio/wav"> <!-- Para arquivo WAV. Evitar esse, pois são arquivos muito grandes e pesados -->
+     </audio>
+     <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/jinglebells.mp3"> Clique aqui</a> para baixar o arquivo MP3</p>
+</body>
+<

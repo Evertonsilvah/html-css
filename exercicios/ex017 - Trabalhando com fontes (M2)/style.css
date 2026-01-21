@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas absolutas
+    cm (centimetros), mm(milimetro), in(polegadas), px(pixels), pt(ponto), pc(paica)
+
+    Medidas relativas
+    em(medida relativa ao tamanho atual da fonte (M)), ex(relativo a altuxa x de uma fonte(x)), rem, vw (), vh, %
+
+    Recomendação da W3C é utilizar px e em
+    */
+
+    /*font-weight: ligther, normal, bold ou bolder ; indica o peso da fonte ('Work Sans'). Deixar ela em negrito*/
+
+    /*font-style: italic; para deixar  em italico*/
+
+    /*text-decoration: underline; para deixar sublinhado*/
+
+    font-size: 16px;
+}
+h1{
+    /*
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+
+    Ao invez de utilizar todas esta configuração acima, é possível escrever em apenas uma linha, utilizando a tag 'font' e segundo esta sequencia: font-style > font-weight > font-size > fontfamily.
+
+    Se chama: propriedade shorthand
+    */
+    
+    font: italic bolder 3em verdana, sans-serif;
+    
+}
+h2{
+    font: bold 2em sans-serif;
+}

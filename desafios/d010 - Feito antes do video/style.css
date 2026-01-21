@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom, #3AD07D,#1B5936);
+    width: 100%;
+    padding: 10px;
+}
+h1#titulo-principal{
+    color: white;
+    text-align: center;
+
+}
+header > h2 {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    padding: 5px;
+    border: 1px solid transparent; /* borda invisível */
+    transition: all 0.3s ease; /* suaviza a transição */
+
+}
+nav > a:hover{
+    border-color: #1B5936;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 2px 10px 10px #1b593665;
+    padding: 10px;
+}
+main picture{
+    display: flex;
+    justify-content: center;
+}
+main picture img{
+    max-width: 100%;
+    height: auto;
+    
+}
+a.links{
+    text-decoration: none;
+    color: #336E4E;
+    font-weight: bold;
+}
+p{
+    text-indent: 2em;
+    text-align: justify;
+}
+h1#titulo-corpo{
+    color: #336E4E;
+    font-family: 'idroid';
+}
+h2.titulos{
+    background-image: linear-gradient(to right, #92d3af8c, white) ;
+    color: #336E4E;
+    font-family: 'idroid';
+    padding: 3px;
+}
+div#video{
+    background-color: #336E4E;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/* bloco que envolve o vídeo */
+.video-centro {
+    width: 95%;          /* largura fixa igual à imagem */
+    max-width: 100%;       /* mas encolhe se a tela for menor que 560 px */
+    aspect-ratio: 16 / 9;  /* mantém proporção 16:9 sem precisar de padding-hack */
+    margin: 1rem auto;     /* centraliza horizontalmente dentro do main */
+    background-color: #1B5936;
+}
+
+/* iframe preenche exatamente o bloco */
+.video-centro iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+}
+div#extra{
+    
+    border-radius: 10px;
+    background-color: #a1f0c377;
+    width: 95%;
+    margin: auto;
+    padding: 0px 5px 5px 5px;
+    box-shadow: 2px 10px 10px #1b593665;
+}
+div > h3{
+    background-color: #32b36c;
+    padding: 10px;
+    margin: 0px -5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+}
+#lista-versao {
+    display: flex;
+    gap: clamp(1rem, 4vw, 5rem);       /* espaço entre as colunas */
+    justify-content: center;
+    margin: 1rem 0;
+}
+#lista-versao ul {
+    list-style: none;   /* remove o marcador padrão */
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-color: #1B5936;
+    height: 20px;
+    padding: 5px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}

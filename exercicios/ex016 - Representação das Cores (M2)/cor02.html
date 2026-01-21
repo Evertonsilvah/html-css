@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradiente em CSS</title>
+    <style>
+        *{ /* Configurações globais das CSS*/
+            height: 100%;
+        }
+        body{
+            /*background-image: linear-gradient(to bottom, #00D1C8, #00FAED, #3D7A77); /* linear-gradient é a função interna para criação do degrade e é necessário informar para qual direção. Nesse caso, de cima para baixo, da primeira para a terceira cor */
+
+            background-image: linear-gradient(45deg, #6A33C1, #B73C97, #ED4F6D, #F79F9F, #FBCC40); /*45deg significa 45 graus da primeira para a ultima cor. Colocando um sinal de negativo ele faz o inverso, do ultimo para o primeiro*/
+
+            /*background-image: radial-gradient(circle, #6A33C1, #B73C97, #ED4F6D, #F79F9F, #FBCC40); /*cria um degrade de dentro pra fora em circulo*/
+            /* possivel aumentar ou diminuir a cor com porcentagem (adiciona depois da cor)*/
+
+            background-attachment: fixed; /*para deixar o fundo fixo*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando gradiente</h1>
+</body>
+</html>
