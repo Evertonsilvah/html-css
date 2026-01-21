@@ -24,8 +24,8 @@ Repositório onde armazeno **todos os exercícios, desafios e projetos** desenvo
 
 # 📊 Status do curso
 - ✅ Módulo 1 – (Fundamentos): Instalação de ferramentas, primeiros códigos HTML, parágrafos, títulos, semântica, imagens e links.
-- ⏳ Módulo 2 – (Estilização): Cores, tipografia, Google Fonts, modelo de caixas (Box Model), pseudo-classes e pseudo-elementos. (em andamento)
-- ⏳ Módulo 3 – (Organização e Projetos): Git, GitHub, hospedagem (GitHub Pages), e projetos práticos com HTML e CSS. (em breve)
+- ✅ Módulo 2 – (Estilização): Cores, tipografia, Google Fonts, modelo de caixas (Box Model), pseudo-classes e pseudo-elementos. 
+- ⏳ Módulo 3 – (Organização e Projetos): Git, GitHub, hospedagem (GitHub Pages), e projetos práticos com HTML e CSS. (em andamento)
 - ⏳ Módulo 4 - (Interatividade e Formulários): Uso de <iframe>, criação de formulários HTML5 (inputs, métodos GET/POST). (em breve)
 - ⏳ Módulo 5 - (Layout Moderno e Responsivo): Design Responsivo, Media Queries, Flexbox, Grid Layout, transições e animações, finalizando com um portfólio. (em breve)
 
