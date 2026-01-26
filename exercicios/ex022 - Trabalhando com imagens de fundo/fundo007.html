@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            height: 500px;
+            background-color: blueviolet;
+        }
+
+        #conteudo{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute; /*com o absoluto podemos modificar o left e o top. Assim podendo alinharmos onde quisermos na pagina*/
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%); /*com o translate conseguimos ajustar o elemento para ficar exatamente no centro, pois o left e o top pegam o ponto inicial do elemento (canto superior esquerdo) e não o centro do mesmo.*/
+
+            /*
+            Para centralizar o conteudo na vertical, dentro de um container. fazemos o seguinte:
+
+            container - position: relative;
+            conteudo - position: absolute;
+            left e top: 50%;
+            transform: translate(-50%, -50%); para tranformar o ponto de referencia do conteudo para o centro do mesmo.
+
+            */
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
