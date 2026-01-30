@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse; /* elimina espaços entre as bordas. por padrão vem como separate */
+        }
+        tr.linha{
+            background-color: gray;
+        }
+        td#dado{
+            background-color: greenyellow;
+        }
+        td {
+            border: 1px solid #000;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira Tabela</h1>
+    <table>
+        <!-- 
+        HIERARQUIA DE TABELAS (simples) 
+        TEBLE = tabela
+            TR = table row (linha da tabela)
+            TH = table header (cabeçalho da tabela)
+            TD = table data (dado da tabela) - </td> não é obrigatório fechar a tag, mas é recomendado fechar
+        -->
+
+        
+        <tr> <!-- primeira linha -->
+            <td>A1</td> <!-- primeira celula -->
+            <td>B1</td> <!-- segunda celula -->
+            <td>C1</td> <!-- terceira celula -->
+        </tr>
+        <tr class="linha"> <!-- segunda linha -->
+            <td>A2</td><!-- primeira celula -->
+            <td>B2</td><!-- segunda celula -->
+            <td>C2</td><!-- terceira celula -->
+        </tr>
+        <tr> <!-- terceira linha -->
+            <td>A3</td><!-- primeira celula -->
+            <td>B3</td><!-- segunda celula -->
+            <td>C3</td><!-- terceira celula -->
+        </tr>
+        <tr> <!-- quarta linha -->
+            <td>A4</td><!-- primeira celula -->
+            <td id="dado">B4</td><!-- segunda celula -->
+            <td>C4</td><!-- terceira celula -->
+        </tr>
+
+    </table>
+</body>
+</html>
