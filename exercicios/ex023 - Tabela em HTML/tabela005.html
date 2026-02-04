@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+        }
+        col.cnome {
+            background-color: #dae763;
+        }
+        col.csexo {
+            background-color: #63d4e7;
+        }
+        col.cgrupo {
+            background-color: #e763da;
+        }
+        /*
+        Poderia fazer desta maneira também:
+        .amarelo{
+            background-color: #dae763;
+        }
+        .azul{
+            background-color: #63d4e7;
+        }
+        
+        E coloca ela no col como <col class="amarelo"> ou <col class="azul">
+        */
+    </style>
+</head>
+<body>
+    <h1>Exercicios de tabela</h1>
+    <table>
+        <colgroup> <!-- define grupos de colunas para estilização. Tags tem fechamento -->
+            <col class="cnome"> <!-- O html define a coluna. Tag col não tem fechamento -->
+            <col class="csexo">
+            <col class="cgrupo" span="2"> <!-- span define quantas colunas o estilo será aplicado. Por mais que tenha 4 colunas para configurar nesse exemplo e só identifiquei 3 "col", o span="2" faz com que o sistema entenda que será a configuração para 2 colunas -->
+        </colgroup>
+        <caption>
+            Cadastro
+        </caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Carla</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Elisa</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Programador</td>
+        </tr>
+    </table>
+</body>
+</html>
