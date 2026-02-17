@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    iframe {
+        width: 95vw;
+        height: 400px;
+        border: 2px solid #333;
+    }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores temporibus voluptates soluta in voluptas enim tempore maiores ducimus expedita aperiam consequatur, totam incidunt nisi dicta dolorem quasi sed adipisci cupiditate.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="iframe1">Página 1</a></li> <!-- O atributo target é usado para especificar onde o conteúdo vinculado deve ser aberto. Neste caso, "iframe1" é o nome do iframe onde a página será carregada. -->
+        <li><a href="paginas-extras/pag002.html" target="iframe1">Página 2</a></li>
+        <li><a href="paginas-extras/pag003.html" target="iframe1">Página 3</a></li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam modi at quam alias ad maxime impedit tempore adipisci nesciunt non eum deserunt reiciendis eveniet ex aliquid, fugiat eos inventore exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem officia, quibusdam autem natus, optio explicabo perferendis deserunt suscipit provident corporis neque magni ipsa maxime nemo hic qui magnam adipisci!
+    </p>
+
+    <iframe name="iframe1" src=""> <!-- Necessário colocar o name para poder expecificar no target (Nesse caso, no li) -->
+        <p>Seu navegador não é compatível.</p>
+    </iframe>
+</body>
+</html>
