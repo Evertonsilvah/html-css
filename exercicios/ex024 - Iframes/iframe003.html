@@ -28,7 +28,9 @@
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam modi at quam alias ad maxime impedit tempore adipisci nesciunt non eum deserunt reiciendis eveniet ex aliquid, fugiat eos inventore exercitationem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem officia, quibusdam autem natus, optio explicabo perferendis deserunt suscipit provident corporis neque magni ipsa maxime nemo hic qui magnam adipisci!
     </p>
 
-    <iframe name="iframe1" src=""> <!-- Necessário colocar o name para poder expecificar no target (Nesse caso, no li) -->
+    <iframe name="iframe1" srcdoc="<h1>Clique em um dos links acima</h1><p>Clicando em um dos links acima, o conteúdo será carregado dentro deste iframe.</p><img src='imagens/joias.jpg' width='390px'>"> 
+        <!-- O atributo srcdoc é usado para fornecer o conteúdo HTML diretamente dentro do iframe. Nesse exemplo foi criado algo simpres, mas o ideal é criar um arquivo separado com configurações . -->
+        <!-- Necessário colocar o "name" para poder expecificar no target (Nesse caso, no li) -->
         <p>Seu navegador não é compatível.</p>
     </iframe>
 </body>
